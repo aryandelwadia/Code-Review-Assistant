@@ -1,0 +1,18 @@
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.slider-track {
+  display: flex;
+  white-space: nowrap;
+}
+
+.slide {
+  flex-shrink: 0;
+  width: 300px;
+  margin: 0 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
