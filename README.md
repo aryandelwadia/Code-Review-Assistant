@@ -12,19 +12,34 @@ This project aims to automate code reviews by analyzing code structure, readabil
 
 ```
 Code-Review-Assistant/
+├── .gitattributes
+├── .gitignore
+├── README.md
+├── sample_code.py
+├── .venv/
 ├── backend/
 │   ├── main.py
-│   └── requirements.txt
-├── frontend/
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   ├── App.css
-│   │   ├── App.js
-│   │   ├── index.css
-│   │   └── index.js
-│   └── package.json
-└── README.md
+│   ├── requirements.txt
+│   ├── samplecode.py.txt
+│   ├── __pycache__/
+│   └── venv/
+└── frontend/
+    ├── package-lock.json
+    ├── package.json
+    ├── postcss.config.js
+    ├── tailwind.config.js
+    ├── build/
+    ├── node_modules/
+    ├── public/
+    └── src/
+        ├── App.css
+        ├── App.js
+        ├── index.css
+        ├── index.js
+        ├── Slider.css
+        ├── Slider.js
+        ├── Spinner.css
+        └── Spinner.js
 ```
 
 ## Setup and Running the Application
@@ -89,6 +104,12 @@ Follow these steps to get the Code Review Assistant up and running on your local
 3.  Upload a code file using the provided interface.
 4.  The frontend will send the file to the backend, which will (in a real scenario) process it using an LLM and return a review report.
 5.  The review report will be displayed on the frontend.
+
+## Contributing
+
+Contributions are welcome! If you have a suggestion or find a bug, please open an issue to discuss it.
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## LLM Integration (Future Work)
 
