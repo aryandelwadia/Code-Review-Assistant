@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
@@ -32,9 +31,10 @@ function App() {
 
     const formData = new FormData();
     formData.append("file", selectedFile);
+    const API_BASE = process.env.REACT_APP_BACKEND_API;
 
     try {
-      const response = await axios.post("http://localhost:8000/review/", formData, {
+      const response = await axios.post(`${API_BASE}/review/`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
