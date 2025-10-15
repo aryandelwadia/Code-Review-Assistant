@@ -1,8 +1,8 @@
 # Code Review Assistant
 
-This project aims to automate code reviews by analyzing code structure, readability, and best practices using a Large Language Model (LLM).
-
-Demo Video Link :- https://drive.google.com/file/d/1yR39LZeoTcZSdW4jh0mXxdHB_zJlxfxC/view?usp=drive_link
+This project aims to automate code reviews by analyzing code structure, readability, and best practices using a Large Language Model (LLM).</br>
+Deployed Link :- https://code-review-assistant-frontend.onrender.com
+Demo Video Link :- https://drive.google.com/file/d/1yR39LZeoTcZSdW4jh0mXxdHB_zJlxfxC/view?usp=drive_link</br>
 
 ## Features
 
