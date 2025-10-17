@@ -31,7 +31,7 @@ function App() {
 
     const formData = new FormData();
     formData.append("file", selectedFile);
-    const API_BASE = process.env.REACT_APP_BACKEND_API;
+    const API_BASE = process.env.REACT_APP_BACKEND_API || "http://localhost:8000";
 
     try {
       const response = await axios.post(`${API_BASE}/review/`, formData, {
